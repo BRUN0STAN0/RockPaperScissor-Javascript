@@ -1,0 +1,101 @@
+/** IMPOSTAZIONI GENERALI */
+body {
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-size: 2.3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/** CONTAINER */
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+/* TITLE */
+#title {
+}
+
+/** BOX GAME */
+
+#box-game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-game div {
+}
+
+#box-game div img {
+    width: 50%;
+    margin-inline: 33%;
+    cursor: pointer;
+}
+
+/* PLAY AGAIN */
+#play-again {
+    margin: 50px;
+}
+
+button {
+    width: 20vw;
+    height: 5vh;
+    min-height: 25px;
+    font-size: 2vw;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+button:hover a {
+    color: black;
+}
+
+/* * SETTINGS JAVASCRIPT */
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+
+/** MEDIA QUERY */
+@media screen and (min-width: 1600px) {
+    body {
+       font-size: 35px;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    button {
+        font-size: 18px;
+        width: 150px;
+        height: 50px;
+    }
+}
